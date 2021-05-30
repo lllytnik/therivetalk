@@ -1,0 +1,23 @@
+.nav {
+    $nav: &;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+
+        #{$nav}__item {
+            padding: 0 5px 5px 5px;
+
+            &:hover {
+                border-bottom: 1px solid #22356F;
+            }
+        }
+
+        #{$nav}__link {
+            text-decoration: none;
+            font-size: 1.4rem;
+            color: #22356F;
+        }
+    }
+}

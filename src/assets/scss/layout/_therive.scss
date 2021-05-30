@@ -1,0 +1,41 @@
+.therive {
+    $therive: &;
+
+    grid-area: 2/1/2/4;
+    display: flex;
+    height: 100vh;
+    max-height: 607px;
+    justify-content: center;
+    background-color: #62D0DF;
+    
+
+    &__left {
+        margin-top: 100px;
+        max-width: 915px;
+        width: 100%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin-left: 160px;
+    }
+
+    &__title {
+        font-size: 3.2rem;
+        color: white;
+    }
+
+    &__text {
+        margin-top: 80px;
+        max-width: 555px;
+        font-size: 2.4rem;
+        color: white;
+    }
+
+    &__right {
+        max-width: 525px;
+        width: 100%;
+        background: url(../images/therive/bg-thrive.png) no-repeat;
+    }
+
+}

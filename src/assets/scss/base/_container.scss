@@ -1,6 +1,5 @@
 .container{
-    display: grid;
-    grid-template-columns: repeat(3, 480px);
+    max-width: 1920px;
     justify-content: center;
     font-family: Larsseit-Regular;
     font-size: 10px;
